@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Pay - 个人问答助手",
+  "version": "2.0.0",
+  "description": "基于 Moonshot API 的智能对话助手，支持多轮对话、Markdown 渲染、历史记录等功能",
+  "permissions": [
+    "storage",
+    "https://api.moonshot.cn/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Pay - 问答助手"
+  },
+  "icons": {
+    "16": "icons/icon16.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
